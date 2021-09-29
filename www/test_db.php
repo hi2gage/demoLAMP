@@ -1,5 +1,5 @@
 <?php
-$link = new mysqli("database", "root", $_ENV['MYSQL_ROOT_PASSWORD'], null);
+$link = new mysqli("database", "root", "tiger", null);
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
