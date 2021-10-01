@@ -3,7 +3,7 @@
 /config/*
 /data/*
 /logs/*
-/www/**
+#/www/**
 .DS_Store
 
 # Folder view configuration files
