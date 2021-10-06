@@ -9,6 +9,13 @@ xhr.addEventListener("load", function () {
     let jsonDoc = xhr.response;
     demo.innerHTML = fillTable(jsonDoc);
 });
+
+document.getElementById("table").addEventListener("click", function() {
+    filterSchool("");
+    document.getElementById("txt1").value = "";
+});
+
+
 let filterResult = document.getElementById("filterResult");
 
 function filterSchool(str) {

@@ -27,12 +27,12 @@ if ($str !== "") {
     foreach ($bigsky_schools as $school) {
         if (stristr($school, $str)) {
             if ($schoolList === "") {
-                $schoolList = "<li>$school</li>\n";
+                $schoolList = "$school, ";
             } else {
-                $schoolList .= "<li>$school</li>\n";
+                $schoolList .= "$school, ";
             }
         }
     }
 }
 
-echo $schoolList === "" ? "None found." : $schoolList;
+echo $schoolList === "" ? "None found." : substr($schoolList, 0, -2);
