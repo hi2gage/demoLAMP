@@ -17,7 +17,7 @@ $bigsky_schools = [
 ];
 
 $str = $_REQUEST["q"];
-echo "<h2>Searching for '$str'...</h2>";
+echo "<h1>Searching for '$str'...</h1>";
 
 $schoolList = "";
 
