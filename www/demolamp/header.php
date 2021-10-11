@@ -1,5 +1,5 @@
 <?php
-// session_start();
+session_start();
 
 $clubstr = 'Csci-491 Demo Lamp Stack Site';
 $userstr = 'Welcome Guest';
