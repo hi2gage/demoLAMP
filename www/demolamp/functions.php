@@ -1,5 +1,5 @@
 <?php
-$dbhost  = 'db';
+$dbhost  = 'localhost';
 
 $dbname  = 'db27';   // Modify these...
 $dbuser  = 'user27';   // ...variables according
