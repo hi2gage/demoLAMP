@@ -1,5 +1,12 @@
 <?php
-$dbhost  = 'localhost';
+
+if(gethostname() =="29481504c11b") {
+    $dbhost  = 'db';
+}
+else{
+    $dbhost  = 'localhost';
+}
+
 
 $dbname  = 'db27';   // Modify these...
 $dbuser  = 'user27';   // ...variables according
