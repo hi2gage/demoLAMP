@@ -1,5 +1,7 @@
 <?php
-session_start();
+if(!isset($_SESSION)) {
+    session_start();
+}
 
 $clubstr = 'Csci-491 Demo Lamp Stack Site';
 $userstr = 'Welcome Guest';
