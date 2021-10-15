@@ -25,7 +25,10 @@ $text = stripslashes(preg_replace('/\s\s+/', ' ', $text));
 
 if (isset($_FILES['image']['name'])) {
     $saveto = "userpics/$user.jpg";
-    mkdir("userpics");
+    if(!is_dir("userpics")) {
+        mkdir("userpics");
+    }
+
     move_uploaded_file($_FILES['image']['tmp_name'], $saveto);
     $typeok = TRUE;
 
