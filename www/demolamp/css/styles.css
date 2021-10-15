@@ -18,35 +18,40 @@ html {
     font-size: 16px;
     font-family: 'Arsenal', sans-serif;
     color: #222;
-    background-color: orange;
+    background-color: white;
 }
 
-#wrapper {
-    margin: auto;
-    max-width: 800px;
-    border-color: #222;
-    border-style: dotted;
-    border-width: 0 5px;
-    padding: 0 5px;
-}
+/*#wrapper {*/
+/*    margin: auto;*/
+/*    max-width: 800px;*/
+/*    border-color: #222;*/
+/*    border-style: dotted;*/
+/*    border-width: 0 5px;*/
+/*    padding: 0 5px;*/
+/*}*/
 
 header {
+
     background-color: white;
     background-color: crimson;
-    height: 140px;
+    height: 250px;
     position: relative;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/bZ7CoDbLP5qM376iLJyxRG.jpg");
 }
 
 #logo {
-    font-family: 'Playfair Display', serif;
-    padding: 20px 0;
+    font-family: 'Charlemagne';
+    padding: 100px 0;
     width: 200px;
-    margin: 0 40px;
+    margin: 0 0px;
     font-variant: small-caps;
     letter-spacing: .05em;
     font-size: 1.5em;
-    text-align: center;
-    color: white;
+    text-align: right;
+    color: black;
     line-height: 1.0em;
 }
 
