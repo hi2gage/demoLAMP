@@ -2,9 +2,11 @@
   echo <<<_END
     </div>
         <footer>
-            <h3>About the Template</h3>
-            <p>$clubstr is a template for MSU CSCI 491 students to create their own LAMP stack web application. Once up and running, this footer content and other code withing the project is intented to be replaced with custom modifications.</p>
-            <p>This assignment is derived from Robin Nixon's book, "Learning PHP, JavaScript, and MySQL" 5th Edition, (espececially Chapters 2, 8, and 27) available for online checkout through the MSU Library; original code samples (particularly the folder called <em>robinsnest</em> ) are available online at the book's <a href="http://lpmj.net/5thedition/">companion website</a>.</p>
+            <h3>About Us</h3>
+            <p>$clubstr is the brain child of Gage Halverson and Isaac Birdwell </p>
+            <p>They found their passion for music when they moved in together in May of 2020. They have continuously
+            played music together yet have not released a single track.
+            </p>
         </footer>
         </div>
     </body>

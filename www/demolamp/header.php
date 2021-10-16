@@ -3,7 +3,7 @@ if(!isset($_SESSION)) {
     session_start();
 }
 
-$clubstr = 'Lamp Project';
+$clubstr = 'Midnight Maintenance ';
 $userstr = 'Welcome Guest';
 
 echo <<<_INIT
@@ -41,7 +41,9 @@ if ($loggedin) {
 echo <<<_LOGGEDIN
 
             <nav><ul>
+
                 <li><a href='members.php?view=$user'>Home</a></li>
+                <li><a href='pianokey.php'>Piano Scale</a></li>
                 <li><a href='members.php'>Members</a></li>
                 <li><a href='friends.php'>Friends</a></li>
                 <li><a href='messages.php'>Messages</a></li>
@@ -54,7 +56,8 @@ echo <<<_GUEST
 
             <nav><ul>
                 <li><a href='index.php'>Home</a></li>
-                <li><a href='index.php'>Giga Dab</a></li>
+                <li><a href='pianokey.php'>Piano Scale </a></li>
+                <li><a href='charts.php'>Charts</a></li>
                 <li><a href='signup.php'>Sign Up</a></li>
                 <li><a href='login.php'>Log In</a></li>
             </ul></nav>
