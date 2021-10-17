@@ -114,7 +114,7 @@ echo <<<_keyBoard
     </div>
 
 
-    <div class="float-child">
+    <div class="float-child form-thing">
             <div id="key-select">
                 <form action="" method="post">
                     <select class="form-select" aria-label="Default select example" name="key-select">

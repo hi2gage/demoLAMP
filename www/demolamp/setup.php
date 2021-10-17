@@ -37,6 +37,11 @@ createTable('profiles',
             'user VARCHAR(16),
             text VARCHAR(4096),
             INDEX(user(6))');
+
+createTable('email',
+            'user VARCHAR(16),
+            text VARCHAR(4096),
+            INDEX(user(6))');
 ?>
 
     <p>The database is ready to go.</p>
