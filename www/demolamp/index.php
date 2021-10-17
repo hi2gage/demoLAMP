@@ -10,7 +10,7 @@ echo "<div>";
 
 echo <<<_para
     <p> This is a website for the Band Midnight Maintenance </p>
-    <p> We are a collect of two college students spendign time in their bedrooms playing music
+    <p> We are two college students spendign time in their bedrooms playing music
     and chasing dreams. </p>
 
 _para;
